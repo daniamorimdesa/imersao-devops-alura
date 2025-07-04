@@ -1,0 +1,15 @@
+# Este é um arquivo de configuração do Docker Compose que define como o serviço da aplicação deve ser executado.
+
+services:
+  app:
+    # Nome do serviço (pode ser qualquer nome)
+    build: . # Constrói a imagem usando o Dockerfile no diretório atual
+    container_name: api # Nome do container gerado (pode ser qualquer nome único para este serviço)
+    ports:
+      - "8000:8000" # Mapeia a porta 8000 do host para a porta 8000 do container
+    volumes:
+      # Monta o diretório atual do host (onde o docker-compose está sendo executado) no caminho /app dentro do container.
+      # Isso permite que quaisquer alterações feitas nos arquivos do projeto no host sejam refletidas imediatamente no container,
+      # facilitando o desenvolvimento, testes e depuração sem a necessidade de reconstruir a imagem do container a cada modificação.
+      # Atenção: em ambientes de produção, geralmente não se utiliza esse tipo de volume para evitar exposição desnecessária de arquivos do host.
+      - .:/app # Sincroniza o diretório atual do host com /app no container (útil para desenvolvimento)
