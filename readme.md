@@ -9,7 +9,7 @@ Repositório com os exercícios, anotações e experimentos realizados durante a
 
 ## Passos para subir o projeto
 
-1. **Faça o download do repositório:**
+1. **Faça o download do repositório original:**
    [Clique aqui para realizar o download](https://github.com/guilhermeonrails/imersao-devops/archive/refs/heads/main.zip)
 
 2. **Crie um ambiente virtual:**
