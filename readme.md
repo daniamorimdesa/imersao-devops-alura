@@ -1,6 +1,5 @@
-# Imersão DevOps - Alura Google Cloud
-
-Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e matrículas em uma instituição de ensino.
+# Imersão DevOps - Alura Google Cloud ☁️🐳
+Repositório com os exercícios, anotações e experimentos realizados durante a **Imersão DevOps da Alura (2025)**.
 
 ## Pré-requisitos
 
@@ -66,3 +65,24 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
 - Para reiniciar o banco, basta apagar o arquivo `escola.db` (isso apagará todos os dados).
 
 ---
+
+## 📘 Anotações da Imersão
+
+> Resumos e insights durante as aulas da imersão.
+
+- [x] Ambiente virtual com `venv`
+- [x] Instalação do Docker
+- [x] Comandos úteis: `docker build`, `docker run`
+- [x] Estrutura de um `Dockerfile`
+- [x] FastAPI + Uvicorn
+
+➡️ Acesse as [anotações completas aqui](./anotacoes-devops.md)
+
+---
+
+## 🛠️ Tecnologias usadas
+
+- [FastAPI](https://fastapi.tiangolo.com/)
+- [Uvicorn](https://www.uvicorn.org/)
+- [Docker](https://www.docker.com/)
+- Python 3.10+
