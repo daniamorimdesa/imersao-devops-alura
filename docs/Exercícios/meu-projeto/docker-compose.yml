@@ -1,0 +1,19 @@
+services:
+  web:
+    build: ./web # Constrói a imagem a partir do diretório ./web
+    ports:
+      - "80:80" # Mapeia a porta 80 do host para a porta 80 do container
+    depends_on:
+      - db # Garante que o serviço 'db' seja iniciado antes do 'web'
+
+  db:
+    image: postgres:13 # Usa a imagem oficial do Postgres na versão 13
+    environment:
+      POSTGRES_USER: dani # Usuário do banco de dados
+      POSTGRES_PASSWORD: helloworld # Senha do banco de dados
+      POSTGRES_DB: projeto_devops # Nome do banco de dados
+    volumes:
+      - postgres_data:/var/lib/postgresql/data # Persistência dos dados do banco
+
+volumes:
+  postgres_data: # Volume nomeado para armazenar os dados do Postgres
