@@ -70,13 +70,13 @@ Repositório com os exercícios, anotações e experimentos realizados durante a
 
 > Resumos e insights durante as aulas da imersão.
 
-- [x] Ambiente virtual com `venv`
-- [x] Instalação do Docker
-- [x] Comandos úteis: `docker build`, `docker run`
-- [x] Estrutura de um `Dockerfile`
-- [x] FastAPI + Uvicorn
+- [📄 Introdução ao Docker](./docs/introducao-docker.pdf)
+- [📄 Aula 1: Construção de imagens Docker + FastAPI](./docs/aula1-anotacoes.pdf)
+- [📄 Aula 2: Docker Compose e GitHub Actions](./docs/aula2-anotacoes.pdf)
+- [📄 Aula 3: Deploy com Google Cloud Run e conceito Serverless](./docs/aula3-anotacoes.pdf)
 
-➡️ Acesse as [anotações completas aqui](./anotacoes-devops.md)
+Todos os arquivos estão organizados na pasta [`/docs`](./docs).
+
 
 ---
 
